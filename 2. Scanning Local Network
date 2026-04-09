@@ -1,10 +1,11 @@
-<h1>Scanning Local Network using Nmap</h1>
+Scanning Local Network using Nmap
 + To know our IP address and subnet mask - "ifconfig".
 + I found my IP address was 192.168.29.194.
 + Then I scan my network using command "nmap -sS 192.168.29.0/24".
 + This command gave me alive IP addresses and Open Ports on my network.
 
-<h2>Scan report</h2>
+
+Scan report
 + Nmap scan report for (192.168.29.1)
 Host is up (0.0081s latency).
 Not shown: 990 filtered tcp ports (no-response)
@@ -34,6 +35,8 @@ PORT     STATE SERVICE
 3389/tcp open  ms-wbt-server
 
 XXXEndXXX
+
+
 
 + The IP address 192.168.29.1 had these tcp ports open:
   -  Port 53
