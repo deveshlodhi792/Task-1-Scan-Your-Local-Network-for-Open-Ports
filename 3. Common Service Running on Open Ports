@@ -1,0 +1,5 @@
+The Scan identified these common services running on Open TCP Ports:-
++ Port 53 was being used for Domain Name System (DNS) Resolution.
++ Port 80/443 for HTTP/HTTPS.
++ Port 8080/8443 was open for alternative of 80/443.
++ Port 1900 was open for UPnP/Simple Service Discovery Protocol (SSDP) service, this protocol allows network devices to find each other.
