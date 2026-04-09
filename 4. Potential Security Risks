@@ -12,3 +12,5 @@ Here are some of the potential risks from open ports:
 - Port 8080 : This port indicates an HTTP service commonly used for applications or proxies. If left unsecured, it may allow interception of traffic or exploitation of the web application.
 
 -Port 8443 : This port indicates an alternative HTTPS service. Misconfigured applications or weak credentials may expose sensitive services. It is recommended to enforce secure TLS, strong authentication, and network access restrictions.
+
+- Port 3389 : This port was found open, running an RDP-compatible service (ms-wbt-server, likely XRDP on Linux). Open RDP ports are a potential security risk, as they can allow brute-force attacks, unauthorized access, and malware entry.
