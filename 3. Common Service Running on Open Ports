@@ -1,5 +1,6 @@
 The Scan identified these common services running on Open TCP Ports:-
-+ Port 53 was being used for Domain Name System (DNS) Resolution.
-+ Port 80/443 for HTTP/HTTPS.
-+ Port 8080/8443 was open for alternative of 80/443.
-+ Port 1900 was open for UPnP/Simple Service Discovery Protocol (SSDP) service, this protocol allows network devices to find each other.
+- Port 53 was being used for Domain Name System (DNS) Resolution.
+- Port 80/443 for HTTP/HTTPS.
+- Port 8080/8443 was open for alternative of 80/443.
+- Port 1900 was open for UPnP/Simple Service Discovery Protocol (SSDP) service, this protocol allows network devices to find each other.
+- Port 3389 was using for listening service ms-wbt-server. This ports was being used by nmap tool to discover hosts on network. This port is usually used for RDP in Windows but I was using Linux.
