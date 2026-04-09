@@ -1,0 +1,14 @@
+Here are some of the potential risks from open ports:
+- Port 53 : This port indicates a DNS resolution service. If misconfigured, this could allow open recursion, making the system vulnerable to DNS amplification attacks, cache poisoning, and potential data exfiltration.
+
+- Port 80: This port indicates an HTTP service. Since HTTP traffic is unencrypted, it is susceptible to interception and man-in-the-middle attacks. Additionally, web application vulnerabilities may be exploited if proper security measures are not implemented. 
+
+- Port 443 : This port indicates an HTTPS service. While HTTPS provides encrypted communication, improper SSL/TLS configuration, weak ciphers, or certificate issues may expose the system to attacks. Additionally, underlying web application vulnerabilities remain a risk.
+
+- Port 1900: This port indicates UPnP/SSDP services used for local device discovery. If exposed externally, it may allow information disclosure and can be exploited for DDoS amplification attacks or unauthorized port forwarding.
+
+- Port 7443 : This port indicates an alternative HTTPS service. While encrypted, it may expose admin panels or web applications if improperly configured.
+
+- Port 8080 : This port indicates an HTTP service commonly used for applications or proxies. If left unsecured, it may allow interception of traffic or exploitation of the web application.
+
+-Port 8443 : This port indicates an alternative HTTPS service. Misconfigured applications or weak credentials may expose sensitive services. It is recommended to enforce secure TLS, strong authentication, and network access restrictions.
